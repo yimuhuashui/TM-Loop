@@ -26,7 +26,7 @@ conda activate TM-Loop
 ## Feature extraction 
 The datasets required by the model can be downloaded from auxiliary materials and other websites. Feature extraction of the datasets can be carried out in feature.py. Run: 
 ```
-python feature.py
+    python feature.py
 ```
 If you want to change the parameters, you can modify them by feature.py the parameters in the code file,Example:
 ```
@@ -49,7 +49,7 @@ If you want to change the training chromosomes, you can modify them by trainmode
 ## Model predicting
 By predict.py prediction of the trained model, candidate chromatin loops are obtained, and run:  
 ```
-python predict.py 
+    python predict.py 
 ```
 Example of modifiable parameters:
 ```
